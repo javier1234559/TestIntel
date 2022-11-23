@@ -18,7 +18,7 @@ public class HelloServlet extends HttpServlet {
     private String message;
 
     public void init() {
-        message = "Hello World test lan 1!";
+        message = "Hello World test lan 2!";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
